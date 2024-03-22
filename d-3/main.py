@@ -76,3 +76,17 @@
 
 # teacher_math.info()
 # teacher_lang.info()
+
+
+class Venicle:
+    def __init__(self, mark, model):
+        self.mark = mark
+        self.model = model
+        
+    
+    def start_engine(self):
+        print(f'{self.mark}-{self.model} заведен')
+        
+        
+car1 = Venicle(mark='Toyota', model='Camry')
+car1.start_engine()
